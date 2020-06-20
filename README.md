@@ -52,7 +52,12 @@ git pull mj master --allow-unrelated-histories
 #Após este comando será aberto o editor default para justificar o merge
 ```
 
-Enviar para o repositório remoto (formato: "git push \<remote-name> \<branch-name>)
+Enviar para o repositório remoto (formato: git push \<remote-name> \<branch-name>)
 ```bash
 git push mj master
+```
+
+Criar uma branch e mudar para ela
+```bash
+git checkout -b develop
 ```
