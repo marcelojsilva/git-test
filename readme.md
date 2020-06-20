@@ -31,7 +31,22 @@ Dar commit das alterações
 git commit -m "Descrever comentário"
 ```
 
-Enviar ao repositório remoto
+Histórico de commits com estatístca
 ```bash
-git push
+git log --stat -2
+```
+
+Adicionando repositório remoto
+```bash
+git remote add mj https://github.com/marcelojsilva/git-test #trocar mj pelo nome do repositório remoto que deseja, quando não informado fica com default 'origin'
+```
+
+Lista repositórios remotos
+```bash
+git remote -v
+```
+
+Enviar para o repositório remoto (formato: "git push \<remote-name> \<branch-name>)
+```bash
+git push mj master
 ```
