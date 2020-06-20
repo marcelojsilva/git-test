@@ -59,5 +59,19 @@ git push mj master
 
 Criar uma branch e mudar para ela
 ```bash
-git checkout -b develop
+git checkout -b development
+```
+
+Voltar para a Master
+```bash
+git checkout master
+```
+
+Criar uma segunda branch, efetuar alterações e efetuar merge com a master
+```bash
+git checkout -b hotfix
+#efetuar alterações
+git checkout master
+git merge hotfix
+git branch -d hotfix
 ```
