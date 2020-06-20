@@ -75,3 +75,7 @@ git checkout master
 git merge hotfix
 git branch -d hotfix
 ```
+Visualizar branchs
+```bash
+git branch -v
+```
