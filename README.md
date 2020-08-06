@@ -4,8 +4,8 @@ Command list for quick reference
 *Leia isto em [Português](README.pt-br.md)*
 
 ## Table of contents
-- [Initial Configuration](#config-init)
-- [Configuration List](#config-list)
+- [Initial Configuration](#initial-configuration)
+- [Configuration List](#Configuration-list)
 - [Init a local repository](#init)
 - [Add changes](#add)
 - [Commit local changes](#commit)
