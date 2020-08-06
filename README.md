@@ -1,81 +1,110 @@
-## Comandos Git
+# Git Quick Guide
+Command list for quick reference
 
-Configuração inicial (somente a primeira vez)
+*Leia isto em [Português](README.pt-br.md)*
+
+## Table of contents
+- [Initial Configuration](#config-init)
+- [Configuration List](#config-list)
+- [Init a local repository](#init)
+- [Add changes](#add)
+- [Commit local changes](#commit)
+- [New remote repository](#new-remote)
+- [Add remote repository](#add-remote)
+- [Push to remote repository](#send-remote)
+- [Add and change to new branch](#branch)
+- [Back to master](#back-master)
+- [Create a second branch, do changes and merge to master](#second-brach)
+- [View branchs](#view-branchs)
+- [Repository status](#status)
+- [Commit history with statistics](#stat)
+- [List remote repositories](#list-remote)
+- [Merge remote and local repositories](#merge-remote)
+
+## Github
+
+### Initial Configuration
+*(Only first time)*
 ```bash
-git config --global user.name "MJ"
-git config --global user.email "marcelojosedasilva@gmail.com"
+git config --global user.name "UserName"
+git config --global user.email "your_email@mail.com"
 ```
 
-Listar configurações atuais
+### Configuration List
 ```bash
 git config --list
 ```
 
-Iniciar um repositório local
+### Init a local repository
 ```bash
 git init
 ```
 
-Status do repositorio
-```bash
-git status
-```
-
-Adicionar alterações
+### Add changes
 ```bash
 git add *
 ```
 
-Dar commit das alterações
+### Commit local changes
 ```bash
-git commit -m "Descrever comentário"
+git commit -m "Initial commit"
 ```
 
-Histórico de commits com estatístca
+### New remote repository
+curl -u '[your-git-userId]' https://api.github.com/user/repos -d '{"name":"[repository-name]"}'
+
+### Add remote repository
 ```bash
-git log --stat -2
+git remote add origin https://github.com/[user-git]/[repository-name]
 ```
 
-Adicionando repositório remoto (Criar primeiro o repositório remoto, neste exemplo o git-test)
+### Push to the remote repository
 ```bash
-git remote add mj https://github.com/marcelojsilva/git-test #trocar mj pelo nome do repositório remoto que deseja, quando não informado fica com default 'origin'
+git push -u origin master
 ```
 
-Lista repositórios remotos
-```bash
-git remote -v
-```
-
-Efetuando merge do repositório remoto com o repositório local (para resolver erro "fatal: refusing to merge unrelated histories")
-```bash
-git pull mj master --allow-unrelated-histories
-#Após este comando será aberto o editor default para justificar o merge
-```
-
-Enviar para o repositório remoto (formato: git push \<remote-name> \<branch-name>)
-```bash
-git push mj master
-```
-
-Criar uma branch e mudar para ela
+### Add and change to the new branch
 ```bash
 git checkout -b development
 ```
 
-Voltar para a Master
+### Back to master
 ```bash
 git checkout master
 ```
 
-Criar uma segunda branch, efetuar alterações e efetuar merge com a master
+### Create a second branch, do changes and merge to master
 ```bash
 git checkout -b hotfix
-#efetuar alterações
+#do changes
 git checkout master
 git merge hotfix
 git branch -d hotfix
 ```
-Visualizar branchs
+### View branchs
 ```bash
 git branch -v
+```
+
+### Repository status
+```bash
+git status
+```
+
+### Commit history with statistics
+```bash
+git log --stat -2
+```
+
+### List remote repositories
+```bash
+git remote -v
+```
+
+### Merge remote and local repositories
+
+*To resolve "fatal: refusing to merge unrelated histories"*
+
+```bash
+git pull origin master --allow-unrelated-histories -m "Merge text" 
 ```
