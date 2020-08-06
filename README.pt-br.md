@@ -4,15 +4,15 @@ Lista de comandos para consulta rápida
 *Read this in [English](README.md)*
 
 ## Índice
-- [Configuração inicial](#config-init)
-- [Listar configurações atuais](#config-list)
-- [Iniciar um repositório local](#init)
+- [Configuração inicial](#configuração-inicial)
+- [Listar configurações atuais](#listar-configurações-atuais)
+- [Iniciar um repositório local](#iniciar-um-repositório-local)
 - [Adicionar alterações](#add)
 - [Dar commit das alterações](#commit)
 - [Novo repositório remoto](#new-remote)
 - [Adicionando repositório remoto](#add-remote)
 - [Enviar para o repositório remoto](#send-remote)
-- [Criar uma branch e mudar para ela](#branch)
+- [Criar uma branch e mudar para ela](#Criar-uma-branch-e-mudar-para ela)
 - [Voltar para a Master](#back-master)
 - [Criar uma segunda branch, efetuar alterações e efetuar merge com a master](#second-brach)
 - [Visualizar branchs](#view-branchs)
@@ -22,6 +22,8 @@ Lista de comandos para consulta rápida
 - [Efetuando merge do repositório remoto com o repositório local](#merge-remote)
 
 ## Github
+
+<!-- toc -->
 
 ### Configuração inicial
 Configuração inicial (somente a primeira vez)
