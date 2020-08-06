@@ -23,6 +23,8 @@ Command list for quick reference
 
 ## Github
 
+<!-- toc -->
+
 ### Initial Configuration
 *(Only first time)*
 ```bash
