@@ -7,14 +7,14 @@ Command list for quick reference
 - [Initial Configuration](#initial-configuration)
 - [Configuration List](#configuration-list)
 - [Init a local repository](#init-a-local-repository)
-- [Add changes](#add-changes)
+- [To add changes](#to-add-changes)
 - [Commit local changes](#commit-local-changes)
 - [New remote repository](#new-remote-repository)
-- [Add remote repository](#add-remote-repository)
+- [To add remote repository](#to-add-remote-repository)
 - [Push to remote repository](#push-to-remote-repository)
-- [Add and change to new branch](#add-and-change-to-new-branch)
+- [To add and change to new branch](#to-add-and-change-to-new-branch)
 - [Back to master](#back-to-master)
-- [Create a second branch, do changes and merge to master](#Create-a-second-branch,-do-changes-and-merge-to-master)
+- [Create a second branch, do changes and merge to master](#Create-a-second-branch-do-changes-and-merge-to-master)
 - [View branchs](#view-branchs)
 - [Repository status](#repository-status)
 - [Commit history with statistics](#Commit-history-with-statistics)
@@ -44,7 +44,7 @@ git init
 
 ### Add changes
 ```bash
-git add *
+git add .
 ```
 
 ### Commit local changes

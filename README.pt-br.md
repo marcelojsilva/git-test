@@ -7,19 +7,19 @@ Lista de comandos para consulta rápida
 - [Configuração inicial](#configuração-inicial)
 - [Listar configurações atuais](#listar-configurações-atuais)
 - [Iniciar um repositório local](#iniciar-um-repositório-local)
-- [Adicionar alterações](#add)
-- [Dar commit das alterações](#commit)
-- [Novo repositório remoto](#new-remote)
-- [Adicionando repositório remoto](#add-remote)
-- [Enviar para o repositório remoto](#send-remote)
-- [Criar uma branch e mudar para ela](#Criar-uma-branch-e-mudar-para ela)
-- [Voltar para a Master](#back-master)
-- [Criar uma segunda branch, efetuar alterações e efetuar merge com a master](#second-brach)
-- [Visualizar branchs](#view-branchs)
-- [Status do repositório](#status)
-- [Histórico de commits com estatística](#stat)
-- [Lista repositórios remotos](#list-remote)
-- [Efetuando merge do repositório remoto com o repositório local](#merge-remote)
+- [Adicionar alterações](#adicionar-alterações)
+- [Dar commit das alterações](#dar-commit-das-alterações)
+- [Novo repositório remoto](#novo-repositório-remoto)
+- [Adicionando repositório remoto](#adicionando-repositório-remoto)
+- [Enviar para o repositório remoto](#enviar-para-o-repositório-remoto)
+- [Criar uma branch e mudar para ela](#criar-uma-branch-e-mudar-para-ela)
+- [Voltar para a Master](#voltar-para-a-master)
+- [Criar uma segunda branch, efetuar alterações e efetuar merge com a master](#criar-uma-segunda-branch-efetuar-alterações-e-efetuar-merge-com-a-master)
+- [Visualizar branchs](#visualizar-branchs)
+- [Status do repositório](#status-do-repositório)
+- [Histórico de commits com estatística](#histórico-de-commits-com-estatística)
+- [Lista repositórios remotos](#Lista-repositórios-remotos)
+- [Efetuando merge do repositório remoto com o repositório local](#efetuando-merge-do-repositório-remoto-com-o-repositório-local)
 
 ## Github
 
@@ -44,7 +44,7 @@ git init
 
 ### Adicionar alterações
 ```bash
-git add *
+git add .
 ```
 
 ### Dar commit das alterações
