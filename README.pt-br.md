@@ -2,7 +2,7 @@
 Lista de comandos para consulta rápida
 
 *Read this in [English](README.md)*
-
+![](gitCheatSheet.jfif)
 ## Índice
 - [Configuração inicial](#configuração-inicial)
 - [Listar configurações atuais](#listar-configurações-atuais)

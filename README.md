@@ -2,7 +2,7 @@
 Command list for quick reference
 
 *Leia isto em [Português](README.pt-br.md)*
-
+![](gitCheatSheet.jfif)
 ## Table of contents
 - [Initial Configuration](#initial-configuration)
 - [Configuration List](#configuration-list)
